@@ -7,8 +7,8 @@
         private clearPathsButton: JQuery;
 
         constructor(private mediator: IMediator) {
-            this.sources = new PointChooser(this.mediator, this.find("#sources"), ".source-point", () => {this.addPathToSelected()});
-            this.destinations = new PointChooser(this.mediator, this.find("#destinations"), ".destination-point", () => {this.addPathToSelected()});
+            this.sources = new PointChooser(this.mediator, this.find("#sources"), ".source-point");
+            this.destinations = new PointChooser(this.mediator, this.find("#destinations"), ".destination-point");
             this.pathsManager = new PathsManager(this.find("#routes"));
 
             this.clearPathsButton = this.find(".js-clear-paths-button");

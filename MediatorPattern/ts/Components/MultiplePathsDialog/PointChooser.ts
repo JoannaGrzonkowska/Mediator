@@ -2,7 +2,7 @@
     export class PointChooser {
         private selectedPoint:string;
 
-        constructor(private mediator: IMediator, private pointsContainer:JQuery, private pointSelector:string, private cb:()=>void) {
+        constructor(private mediator: IMediator, private pointsContainer:JQuery, private pointSelector:string) {
             this.init();
         }
 
@@ -15,8 +15,7 @@
                 .click((event) => {
                     let pointDiv = $(event.target);
                     this.selectedPoint = pointDiv.text();
-                    //this.mediator.request(MessageType.SelectPath);
-                    this.cb();
+                    this.mediator.request(MessageType.SelectPath);
                 });
 
             this.clearSelectedPoint();

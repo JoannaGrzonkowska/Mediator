@@ -109,8 +109,37 @@
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\App\Components\CalculationsTable - Copy.js" />
+    <Content Include="Scripts\App\Components\CalculationsTable.js" />
+    <Content Include="Scripts\App\Components\MultiplePathsDialog\MultiplePathsChooser.js" />
+    <Content Include="Scripts\App\Components\MultiplePathsDialog\PathsManager.js" />
+    <Content Include="Scripts\App\Components\MultiplePathsDialog\PointChooser.js" />
+    <Content Include="Scripts\App\Components\TopPanel.js" />
+    <Content Include="Scripts\App\Dashboard.js" />
+    <Content Include="Scripts\App\Helpers\DialogManager.js" />
+    <Content Include="Scripts\App\Helpers\HtmlTemplate.js" />
+    <Content Include="Scripts\App\MessageHandlers\AddPathsToResults.js" />
+    <Content Include="Scripts\App\MessageHandlers\AddSelectedPath.js" />
+    <Content Include="Scripts\App\Messages\IMessageHandler.js" />
+    <Content Include="Scripts\App\Messages\Mediator.js" />
+    <Content Include="Scripts\App\Messages\MessageType.js" />
+    <Content Include="Scripts\App\Models\Path.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\App\Components\CalculationsTable.js.map" />
+    <Content Include="Scripts\App\Components\MultiplePathsDialog\MultiplePathsChooser.js.map" />
+    <Content Include="Scripts\App\Components\MultiplePathsDialog\PathsManager.js.map" />
+    <Content Include="Scripts\App\Components\MultiplePathsDialog\PointChooser.js.map" />
+    <Content Include="Scripts\App\Components\TopPanel.js.map" />
+    <Content Include="Scripts\App\Dashboard.js.map" />
+    <Content Include="Scripts\App\Helpers\DialogManager.js.map" />
+    <Content Include="Scripts\App\Helpers\HtmlTemplate.js.map" />
+    <Content Include="Scripts\App\MessageHandlers\AddPathsToResults.js.map" />
+    <Content Include="Scripts\App\MessageHandlers\AddSelectedPath.js.map" />
+    <Content Include="Scripts\App\Messages\IMessageHandler.js.map" />
+    <Content Include="Scripts\App\Messages\Mediator.js.map" />
+    <Content Include="Scripts\App\Messages\MessageType.js.map" />
+    <Content Include="Scripts\App\Models\Path.js.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -150,7 +179,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Scripts\App\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
