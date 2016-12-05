@@ -1,0 +1,21 @@
+﻿<div id="addMultiplePathsDialog" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content" id="add-multiple-paths-container">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title">Paths</h3>
+            </div>
+            <div class="modal-body">
+                <div>
+                    @Html.Partial("MultiplePaths")
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary js-add-to-calculation-button">Add to Calculation</button>
+            </div>
+        </div>
+    </div>
+</div>

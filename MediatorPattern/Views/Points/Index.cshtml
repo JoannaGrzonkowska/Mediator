@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Mediator Example";
+}
+
+<div class="container">
+    @{ Html.RenderPartial("TopPanel");
+        Html.RenderPartial("CalculationsTable"); }
+</div>
+
+@{ Html.RenderPartial("MultiplePathsDialog");
+    Html.RenderPartial("_Templates"); }
+
+@section scripts
+    {
+    <script type="text/javascript">
+        new PathsCalculator.Dashboard();
+    </script>
+}
